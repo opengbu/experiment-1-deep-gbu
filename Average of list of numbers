@@ -1,0 +1,28 @@
+//Name -Deep Akash
+//Roll No.- 19/BHP/009
+//Topic- To find the average of list of numbers
+
+#include<iostream> 
+using namespace std;
+
+int main()
+{int i,n,x,sum=0;
+float average;
+
+cout<<"how many numbers you want to enter ";
+cin>>n;
+
+for(i=1;i<=n; ++i)
+{cout<<"\n enter the number ";
+cin>>x;
+
+sum+=x;
+}
+average =(float)sum/(float)n;
+cout<<"\n\ n averagr of "<<n<<" numbers  "<<average;
+cout<<"\n";
+
+cout <<"execute by Deep Akash";
+return 0;
+	
+}
